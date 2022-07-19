@@ -29,3 +29,16 @@ A última etapa é a regulagem. Nessa etapa o ripple é eliminado e a tensão se
 
 A tensão eficaz que sai do transformador é 24 V. Logo sua tensão de pico é:
 
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq1.PNG "Equacao1")
+
+Considerando a queda de tensão de 1,4 V que ocorre na ponte de diodo, temos:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq2.PNG "Equacao2")
+
+Como queremos estabelecer um ripple máximo de 10%, temos:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq3.PNG "Equacao3")
+
+Obtendo uma corrente de 124 mA a partir do simulador e sabendo da primeira lei de Ohm podemos aplicar a seguinte equação para a frequência de 60 Hz:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq4.PNG "Equacao4")
