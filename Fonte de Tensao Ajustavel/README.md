@@ -49,6 +49,6 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 
 | Quantidade        | Componente           | Valor uni.  | Valor Tot  |
 | ----------------- |:--------------------:| -----------:| ----------:|
-| 1     | Transformador 110/220 V para 24 V   | 55,24   | 55,24   |
+| 1   | Transformador 110/220 V para 24 V   | 55,24   | 55,24   |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
