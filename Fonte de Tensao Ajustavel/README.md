@@ -26,3 +26,6 @@ A última etapa é a regulagem. Nessa etapa o ripple é eliminado e a tensão se
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/regulagem.PNG "Regulagem")
 
 ## Cálculo da Capacitância
+
+A tensão eficaz que sai do transformador é 24 V. Logo sua tensão de pico é:
+
