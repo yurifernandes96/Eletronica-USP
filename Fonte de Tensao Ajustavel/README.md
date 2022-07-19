@@ -21,3 +21,8 @@ O capacitor se carrega durante um breve período de tempo e tem sua descarga len
 
 ### 4. Regulagem
 
+A última etapa é a regulagem. Nessa etapa o ripple é eliminado e a tensão se torna absolutamente constante. O componente responsável por essa etapa é o diodo zener, que funciona da seguinte forma: quando a tensão de entrada no diodo é maior que seu valor especificado, ele reduz a tensão para sua especificação. No nosso circuito foi implementado um diodo de 13 V.
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/regulagem.PNG "Regulagem")
+
+## Cálculo da Capacitância
