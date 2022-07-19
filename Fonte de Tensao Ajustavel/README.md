@@ -44,3 +44,11 @@ Obtendo uma corrente de 124 mA a partir do simulador e sabendo da primeira lei d
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq4.PNG "Equacao4")
 
 Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacitor de 330 uF, que é o valor comercial mais próximo.
+
+## Tabela dos valores dos componentes
+
+| Quantidade        | Componente           | Valor uni.  | Valor Tot  |
+| ----------------- |:--------------------:| -----------:| ----------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
