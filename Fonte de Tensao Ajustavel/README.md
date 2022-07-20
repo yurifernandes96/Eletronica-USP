@@ -75,3 +75,4 @@ Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso cus
 
 
 ## Agradecimentos
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/simoes.png)
