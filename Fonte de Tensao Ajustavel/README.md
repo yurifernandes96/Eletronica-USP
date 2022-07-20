@@ -54,5 +54,10 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 | Quantidade        | Componente           | Valor uni.  | Valor Tot  |
 | ----------------- |:--------------------:| -----------:| ----------:|
 | 1   | Transformador 110/220 V para 24 V   | 55,24   | 55,24   |
-| 1     | Capacitor 330uF e 25 V     |   0,33 |    0,33 |
 | 1 | Ponte Retificadora     |    1,30 |  1,30 |
+| 1     | Capacitor 330uF e 25 V     |   0,33 |    0,33 |
+| 1 | LED Difuso 5 mm    |    0,25 |  0,25 |
+| 1 | Diodo Zener 13 V 1/2 W    |    0,08 |  0,08 |
+| 1 | Potenciômetro Linear 5K    |    2,06 |  2,06 |
+| 1 | Transistor NPN BC337   |    0,27 |  0,27 |
+| 3 | Resistor 2K2 Carvão    |    0,06 |  0,18 |
