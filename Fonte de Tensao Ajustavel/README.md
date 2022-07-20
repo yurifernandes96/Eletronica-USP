@@ -68,7 +68,9 @@ Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso cus
 
 ## Links úteis
 [Circuito no Falstad](https://tinyurl.com/2gka35pf)
+
 [Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=fCE0FbQKNUs)
+
 [Aulas do Prof. Simões](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao)
 
 
