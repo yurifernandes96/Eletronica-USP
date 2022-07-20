@@ -62,3 +62,5 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 | 1 | [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)   |    0,27 |  0,27 |
 | 3 | [Resistor 2K2 Carvão](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html)    |    0,06 |  0,18 |
 | TOTAL | |    |  59,71 |
+
+Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso custo real foi de cerca de R$ 4,50
