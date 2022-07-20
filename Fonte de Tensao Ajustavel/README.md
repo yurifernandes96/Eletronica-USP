@@ -60,6 +60,6 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 | 1 | [Diodo Zener 13 V 1/2 W](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)    |    0,08 |  0,08 |
 | 1 | [Potenciômetro Linear 5K](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)    |    2,06 |  2,06 |
 | 1 | [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)   |    0,27 |  0,27 |
-| 3 | [Resistor 2K2 Carvão](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html)    |    0,06 |  0,18 
+| 3 | [Resistor 2K2 Carvão](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html)    |    0,06 |  0,18 |
 | TOTAL | |    |  59,71 |
 Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso custo real foi de cerca de R$ 4,50
