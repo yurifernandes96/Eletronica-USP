@@ -76,3 +76,13 @@ Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso cus
 
 ## Agradecimentos
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/simoes.png)
+
+
+## Grupo 33
+Lucas André - 13673260
+
+Luan Benson - 13672085
+
+Luiz Schulz - 13732769
+
+Yuri Fernandes - 13730127
