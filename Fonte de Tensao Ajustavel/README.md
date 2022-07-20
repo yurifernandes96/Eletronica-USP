@@ -1,6 +1,9 @@
 # Fonte de Tensão Ajustável
+
+
 ## Objetivo
 O objetivo deste trabalho é projetar uma fonte de tensão ajustável entre 3V e 12V, com uma corrente máxima de 100 mA no terminal. Iniciando com uma tensão alternada de valor eficaz Vrms = 127 V, vamos montar um circuito que irá convertê-la em uma tensão contínua e constante.
+
 
 
 ## Etapas
@@ -29,6 +32,7 @@ A última etapa é a regulagem. Nessa etapa o ripple é eliminado e a tensão se
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/regulagem.PNG "Regulagem")
 
 
+
 ## Cálculo da Capacitância
 
 A tensão eficaz que sai do transformador é 24 V. Logo sua tensão de pico é:
@@ -50,6 +54,7 @@ Obtendo uma corrente de 124 mA a partir do simulador e sabendo da primeira lei d
 Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacitor de 330 uF, que é o valor comercial mais próximo.
 
 
+
 ## Tabela dos valores dos componentes
 
 | Quantidade        | Componente           | Valor uni.  | Valor Tot  |
@@ -67,6 +72,7 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso custo real foi de cerca de R$ 4,50
 
 
+
 ## Links úteis
 [Circuito no Falstad](https://tinyurl.com/2gka35pf)
 
@@ -75,8 +81,10 @@ Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso cus
 [Aulas do Prof. Simões](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao)
 
 
+
 ## Agradecimentos
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/simoes.png)
+
 
 
 ## Grupo 33
