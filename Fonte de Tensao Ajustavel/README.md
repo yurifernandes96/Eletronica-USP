@@ -15,11 +15,12 @@ A próxima etapa é a retificação dessa tensão alternada para um sinal de flu
 
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/retificador2.png "Retificacao")
 ### 3. Filtragem
-Na terceira parte, temos um filtro que normalmente na eletrônica é composto por indutores e capacitores, esse filtro faz com que o sinal pulsante fique o mais próximo possível de um sinal linear de corrente contínua. Esse filtro atua carregando e descarregando os capacitores (acumuladores de energia) como podemos ver na imagem abaixo:
+Na terceira parte, temos um filtro que normalmente na eletrônica é composto por indutores e capacitores, esse filtro diminui a variância do sinal, fazendo com que o sinal fique mais próximo de um sinal linear de corrente contínua.
 
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/images/filtragem.PNG "Filtragem")
 
-O capacitor se carrega durante um breve período de tempo e tem sua descarga lenta, com isso, faz com que os pulsos de saída fiquem quase invisíveis. Esse ruído residual é conhecido como RIPPLE e quanto menor o RIPPLE, melhor é a fonte de alimentação.
+A tensão da tomada carrega o capacitor por um breve período de tempo, e quando ela cai o próprio capacitor passa a abastecer o circuito. Note que ainda existe uma defasagem entre a tensão de pico e a tensão mínima no capacitor. Essa defasagem é chamada de RIPPLE, e queremos limitar o RIPPLE em até 10%.
+
 
 ### 4. Regulagem
 
