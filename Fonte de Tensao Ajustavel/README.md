@@ -64,3 +64,12 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 | TOTAL | |    |  59,71 |
 
 Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso custo real foi de cerca de R$ 4,50
+
+
+## Links úteis
+[Circuito no Falstad](https://tinyurl.com/2gka35pf)
+[Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=fCE0FbQKNUs)
+[Aulas do Prof. Simões](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao)
+
+
+## Agradecimentos
