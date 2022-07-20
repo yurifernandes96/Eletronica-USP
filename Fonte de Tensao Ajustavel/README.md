@@ -53,7 +53,7 @@ Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacito
 
 | Quantidade        | Componente           | Valor uni.  | Valor Tot  |
 | ----------------- |:--------------------:| -----------:| ----------:|
-| 1   | Transformador 110/220 V para 24 V   | 55,24   | 55,24   |
+| 1   | [Transformador 110/220 V para 24 V](https://www.baudaeletronica.com.br/transformador-trafo-1a-24v.html)   | 55,24   | 55,24   |
 | 1 | Ponte Retificadora     |    1,30 |  1,30 |
 | 1     | Capacitor 330uF e 25 V     |   0,33 |    0,33 |
 | 1 | LED Difuso 5 mm    |    0,25 |  0,25 |
