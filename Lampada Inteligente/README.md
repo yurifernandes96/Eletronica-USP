@@ -2,16 +2,41 @@
 
 
 ## Objetivo
-
+O objetivo deste trabalho é projetar um interruptor sonoro, que recebe um sinal sonoro (palma) e liga ou desliga a luz de um cômodo. O circuito desenvolvido é um exemplo em menor escala de um projeto geral.
 
 
 
 ## Etapas
 
 
+### 1. Leitura de Som 
+Nessa etapa o sensor de som(KY-038) detecta quando o usuário bate palmas, enviando ao controlador (ESP-32) um sinal analógico entre 0 and 4095.
+
+
+### 2. Mudança de Estado
+Caso o valor lido na etapa 1 seja superior a 100, o controlador (ESP-32) envia ou deixa de enviar um sinal digital de 3,3 V para o transistor (NPN BC337), que libera ou bloqueia a passagem de corrente, ligando ou apagando o LED. 
 
 
 
+## Cálculo das Resistências
+
+O LED precisa de corrente de cerca 10 mAm logo:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq1.PNG "Equacao1")
+
+Considerando a queda de tensão de 1,4 V que ocorre na ponte de diodo, temos:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq2.PNG "Equacao2")
+
+Como queremos estabelecer um ripple máximo de 10%, temos:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq3.PNG "Equacao3")
+
+Obtendo uma corrente de 124 mA a partir do simulador e sabendo da primeira lei de Ohm podemos aplicar a seguinte equação para a frequência de 60 Hz:
+
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq4.PNG "Equacao4")
+
+Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacitor de 330 uF, que é o valor comercial mais próximo.
 
 
 
@@ -34,7 +59,9 @@ Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso cus
 
 
 ## Links úteis
+[Circuito no Falstad](https://tinyurl.com/2gka35pf)
 
+[Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=fCE0FbQKNUs)
 
 [Aulas do Prof. Simões](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao)
 
@@ -53,4 +80,3 @@ Luan Benson - 13672085
 Luiz Schulz - 13732769
 
 Yuri Fernandes - 13730127
-
