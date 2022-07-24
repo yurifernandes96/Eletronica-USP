@@ -22,13 +22,13 @@ Caso o valor lido na etapa 1 seja superior a 100, o controlador (ESP-32) envia o
 
 O LED precisa de corrente de cerca 10 mAm logo:
 
-![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq1.PNG "Equacao1")
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Lampada%20Inteligente/images/eq1.PNG "Equacao1")
 
 Foi utilizado um resistor de 680 ohms.
 
 O Transistor precisa de no mínimo 1/100 da corrente em sua base em relação ao valor total que passará pelo coletor (10 mA), logo precisa no mínimo 0,1 mA na base. Optamos por 1 mA:
 
-![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq2.PNG "Equacao2")
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Lampada%20Inteligente/images/eq2.PNG "Equacao2")
 
 Utilizamos 4 resistores de 820 em série, resultando 3260 ohms.
 
@@ -46,7 +46,8 @@ Utilizamos 4 resistores de 820 em série, resultando 3260 ohms.
 | TOTAL | |    |  79,14 |
 
 
-
+## Representação do Circuito
+![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Lampada%20Inteligente/images/photo_2022-07-24_01-56-23.jpg "Circuito")
 
 
 ## Links úteis
