@@ -52,7 +52,7 @@ Utilizamos 4 resistores de 820 em série, resultando 3260 ohms.
 
 ## Links úteis
 
-[Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=fCE0FbQKNUs)
+[Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=TgisposdTu4)
 
 [Aulas do Prof. Simões](https://gitlab.com/simoesusp/disciplinas/-/tree/master/SSC0180-Eletronica-para-Computacao)
 
