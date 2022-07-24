@@ -20,7 +20,7 @@ Caso o valor lido na etapa 1 seja superior a 100, o controlador (ESP-32) envia o
 
 ## Cálculo das Resistências
 
-O LED precisa de corrente de cerca 10 mAm logo:
+O LED precisa de corrente de cerca 10 mA logo:
 
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Lampada%20Inteligente/images/eq1.PNG "Equacao1")
 
