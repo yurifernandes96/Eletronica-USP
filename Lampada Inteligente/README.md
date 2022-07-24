@@ -1,4 +1,4 @@
-# Fonte de Tensão Ajustável
+# Lampada Inteligente
 
 
 ## Objetivo
@@ -10,7 +10,7 @@ O objetivo deste trabalho é projetar um interruptor sonoro, que recebe um sinal
 
 
 ### 1. Leitura de Som 
-Nessa etapa o sensor de som(KY-038) detecta quando o usuário bate palmas, enviando ao controlador (ESP-32) um sinal analógico entre 0 and 4095.
+Nessa etapa o sensor de som (KY-038) detecta quando o usuário bate palmas, enviando ao controlador (ESP-32) um sinal analógico entre 0 and 4095.
 
 
 ### 2. Mudança de Estado
@@ -24,42 +24,32 @@ O LED precisa de corrente de cerca 10 mAm logo:
 
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq1.PNG "Equacao1")
 
-Considerando a queda de tensão de 1,4 V que ocorre na ponte de diodo, temos:
+Foi utilizado um resistor de 680 ohms.
+
+O Transistor precisa de no mínimo 1/100 da corrente em sua base em relação ao valor total que passará pelo coletor (10 mA), logo precisa no mínimo 0,1 mA na base. Optamos por 1 mA:
 
 ![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq2.PNG "Equacao2")
 
-Como queremos estabelecer um ripple máximo de 10%, temos:
-
-![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq3.PNG "Equacao3")
-
-Obtendo uma corrente de 124 mA a partir do simulador e sabendo da primeira lei de Ohm podemos aplicar a seguinte equação para a frequência de 60 Hz:
-
-![alt text](https://github.com/yurifernandes96/Eletronica-USP/blob/main/Fonte%20de%20Tensao%20Ajustavel/equacoes/eq4.PNG "Equacao4")
-
-Desse modo, obtemos uma capacitância de 317,9 uF e optamos por usar um capacitor de 330 uF, que é o valor comercial mais próximo.
-
+Utilizamos 4 resistores de 820 em série, resultando 3260 ohms.
 
 
 ## Tabela dos valores dos componentes
 
 | Quantidade        | Componente           | Valor uni.  | Valor Tot  |
 | ----------------- |:--------------------:| -----------:| ----------:|
-| 1 | [Transformador 110/220 V para 24 V](https://www.baudaeletronica.com.br/transformador-trafo-1a-24v.html)   | 55,24   | 55,24   |
-| 1 | [Ponte Retificadora](https://www.moduloeletronica.com.br/produto/ponte-retificadora-w10m-15a-1000v/3441934)     |    1,30 |  1,30 |
-| 1 | [Capacitor 330uF e 25 V](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-25v.html)    |   0,33 |    0,33 |
+| 1 | [ESP 32](https://www.baudaeletronica.com.br/placa-doit-esp32-bluetooth-e-wifi.html)   | 65,96   | 65,96   |
+| 1 | [Sensor de Som KY-038](https://www.filipeflop.com/produto/sensor-de-som-ky-038-microfone/)     |    12,40 |  12,40 |
 | 1 | [LED Difuso 5 mm](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html)    |    0,25 |  0,25 |
-| 1 | [Diodo Zener 13 V 1/2 W](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html)    |    0,08 |  0,08 |
-| 1 | [Potenciômetro Linear 5K](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)    |    2,06 |  2,06 |
 | 1 | [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html)   |    0,27 |  0,27 |
-| 3 | [Resistor 2K2 Carvão](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html)    |    0,06 |  0,18 |
-| TOTAL | |    |  59,71 |
+| 1 | [Resistor 680R Carvão](https://www.baudaeletronica.com.br/resistor-680r-5-1-4w.html)    |    0,06 |  0,06 |
+| 4 | [Resistor 820R Carvão](https://www.baudaeletronica.com.br/resistor-820r-5-1-4w.html)    |    0,05 |  0,20 |
+| TOTAL | |    |  79,14 |
 
-Obs: Usamos um transformador emprestado pelo Professor Simões, então nosso custo real foi de cerca de R$ 4,50
+
 
 
 
 ## Links úteis
-[Circuito no Falstad](https://tinyurl.com/2gka35pf)
 
 [Vídeo explicativo no YouTube](https://www.youtube.com/watch?v=fCE0FbQKNUs)
 
